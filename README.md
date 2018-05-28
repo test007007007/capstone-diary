@@ -1,6 +1,6 @@
 # capstone-diary
 
-![](https://secure.travis-ci.org/test007007007/capstone-diary.png)
+[![Build Status](https://travis-ci.org/test007007007/capstone-diary.svg?branch=master)](https://travis-ci.org/test007007007/capstone-diary)
 
 :rocket::rocket:
 :smiley::smiley:
