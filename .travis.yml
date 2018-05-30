@@ -1,18 +1,5 @@
-language: android 
-android:
-  components:
-    - tools
-    - platform-tools
+language: python
+python:
+  - "3.4.3"
 
-    - build-tools-26.0.2
-
-    - android-26
-
-    - extra-google-google_play_services
-    - extra-google-m2repository
-    - extra-android-m2repository
-    - addon-google_apis-google-26
-    - sys-img-armeabi-v7a-android-26
-
-script:
-  - "./src/androidProjects/SMALLSERVER/gradlew build connectedCheck"
+script: python test.py
