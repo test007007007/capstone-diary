@@ -15,4 +15,4 @@ android:
     - sys-img-armeabi-v7a-android-26
 
 script:
-  - ./src/androidProjects/SMALLSERVER/gradlew build connectedCheck
+  - "./src/androidProjects/SMALLSERVER/gradlew build connectedCheck"
